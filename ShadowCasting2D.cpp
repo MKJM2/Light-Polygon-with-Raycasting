@@ -487,7 +487,7 @@ public:
 			for (int y = 0; y < nWorldHeight; y++)
 			{
 				if (world[y * nWorldWidth + x].exist)
-					FillRect(x * fBlockWidth, y * fBlockWidth, fBlockWidth, fBlockWidth, (DEBUG == false) ? olc::BLUE : olc::BLANK);
+					FillRect(x * fBlockWidth, y * fBlockWidth, fBlockWidth, fBlockWidth, (DEBUG == false) ? olc::RED : olc::BLANK);
 			}
 		
 		if (DEBUG)
@@ -513,8 +513,6 @@ int main()
 		//Deinitialization
 		demo.SaveMapData();
 
-
-	
 	return 0;
 }
 
