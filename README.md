@@ -1,7 +1,7 @@
 # Light-Polygon-with-Raycasting
 A simple simulation visualizing the creation of light polygons by casting rays from the light source.
 
-![Raycasting](screenshot.png)
+<p align="center"><img src="screenshot.png"></p>
 
 Written using [olcPixelGameEngine](https://github.com/OneLoneCoder/olcPixelGameEngine).
 
